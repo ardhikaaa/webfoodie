@@ -1,0 +1,516 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    background-color: #344755;
+    height: 730px;
+}
+
+.isi{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    /* background-color: aliceblue; */
+}
+
+.navbar{
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.navbar .logo{
+    font-weight: 600;
+    font-size: 50px;
+    
+    color: #FF7A00;
+    margin-top: -30px;
+}
+
+.hero{
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.hero .judul{
+    margin-top: 100px;
+    color: white;
+    
+}
+
+.hero .judul h1{
+    font-size: 60px;
+    
+}
+
+.hero .judul p{
+    font-size: 23px;
+    margin-right: 300px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    width: 480px;
+}
+
+.button{
+    margin-top: 50px;
+    margin-left: 53px;
+}
+
+.button .satu a{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    background-color: #344755;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+
+.button .satu a:hover{
+    transition: color 0.25s, background-color 0.25s;
+    background-color: white;
+    color: #344755;
+    
+}
+
+.hero .pic{
+    /* background-color: aqua; */
+    width: 500px;
+    height: 400px;
+    margin-top: -100px;
+    margin-left:200px;
+    /* margin-bottom: 100x; */
+}
+
+.container img{
+    width: 950px;
+    height: 650px;
+}
+
+.container2{
+    width: 100%;
+    background-color: white;
+    height: 700px;
+}
+
+.isi2{
+    width: 90%;
+    margin: auto;
+    height: 550px;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.isi2 .pic2{
+    width: 500px;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: -150px;
+}
+
+.description{
+    /* background-color: aliceblue;
+    height: 50px;
+    width: 470px; */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+
+.judul2{
+    /* background-color: aliceblue; */
+    height: 50px;
+    width: 700px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.desc{
+    margin-top: 500px;
+    /* background-color: aquamarine; */
+    width: 720px;
+    margin-top: 150px;
+    font-size: 22px;
+    color: #959595;
+}
+
+.container2 .pic2{
+    /* background-color: aqua; */
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: -160px;
+}
+
+.container2 img{
+    width: 950px;
+    height: 650px;
+}
+
+.container3{
+    width: 100%;
+    height: 700px;
+    background-color: #344755;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.isi3{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    /* background-color: #959595; */
+    text-align: center;
+    color: white;
+}
+
+.how{
+    padding-top: 70px;
+}
+
+.how h1{
+    font-size: 50px;
+}
+
+.how h1, h2{
+    color: #FF7A00;
+}
+
+.how p{
+    font-size: 26px;
+    /* background-color: aliceblue; */
+    width: 725px;
+    margin: auto;
+    font-weight: 400;
+}
+
+.box{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.box2{
+    /* background-color: aqua; */
+    margin: 5px;
+}
+
+.box2 .konten p{
+    font-weight: 400;
+    font-size: 28px;
+    /* background-color: brown; */
+    width: 350px;
+}
+
+.container4{
+    background-color: white;
+    width: 100%;
+    height: 2200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isi4{
+    width: 90%;
+    height: 2200px;
+    margin: auto;
+    /* background-color: crimson; */
+}
+
+.foodmenu{
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 100px;
+}
+
+.foodmenu h1{
+    font-size: 50px;
+}
+
+.foodmenu p{
+    /* background-color: #959595; */
+    font-size: 25px;
+    width: 650px;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 80px;
+    
+}
+
+.isigrid{
+    background-color: #d9d9d9;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.isigrid:hover{
+    background-color: #959595;
+    cursor: pointer;
+    transition: 0.45s;
+    height: 800px;
+}
+
+.container4 .isigrid img{
+    height: 300px;
+    width: 450px;
+}
+
+.container4 .isigrid .foodpic2 img{
+    height: 400px;
+    width: 400px;
+}
+.foodpic{
+    /* margin-left: -20px; */
+    margin-top: 20px;
+}
+
+.foodpic2{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.foodpic3{
+    margin-left: -90px;
+    margin-top: 20px;
+}
+
+.foodpic6{
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+.nama2 h3{
+    font-weight: 600;
+    width: 350px;
+    margin: auto;
+    font-size: 28px;
+    margin-top: -60px;
+}
+
+.isigrid .nama2 p{
+    margin: auto;
+    /* background-color: aquamarine; */
+    font-weight: 400;
+    font-size: 23px;
+    width: 400px;
+}
+
+.nama h3{
+    /* background-color: beige; */
+    font-weight: 600;
+    width: 300px;
+    margin: auto;
+    font-size: 28px;
+}
+
+.isigrid .nama p{
+    margin: auto;
+    /* background-color: aquamarine; */
+    font-weight: 400;
+    font-size: 23px;
+    width: 400px;
+}
+
+.nama6 h3{
+    /* background-color: aqua; */
+    font-weight: 600;
+    width: 350px;
+    margin: auto;
+    font-size: 28px;
+    margin-top: -20px;
+}
+
+.isigrid .nama6 p{
+    margin: auto;
+    /* background-color: aquamarine; */
+    font-weight: 400;
+    font-size: 23px;
+    width: 400px;
+}
+
+.container5{
+    background-color: #393939;
+    width: 100%;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.isi5{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    gap: 30px;
+}
+
+.contact h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.contact p{
+    font-size: 25px;
+    width: 200px;
+}
+
+.number{
+    color: white;
+}
+
+.number:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button{
+    height: 70px;
+    width: 300px;
+    font-size: 55px;
+    border-radius: 15px;
+    background-color: #393939;
+    border: solid 2px white;
+    color: white;
+}
+
+button:hover{
+    color: #393939;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #0A0F15;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isifooter{
+    /* background-color: lightcoral; */
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    /* background-color: aquamarine; */
+    height: 20px;
+    width: 750px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.icon1{
+    background-color: #0A0F15;
+    width: 40px;
+    height: 40px;
+    padding-left: 4px;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.icon1:hover{
+    background-color: lightgrey;
+    width: 40px;
+    height: 40px;
+    padding-left: 4px;
+    padding-top: 2px;
+    transition: 0.25s;
+    color: #0A0F15;
+    cursor: pointer;
+    
+}
+
+.icon2{
+    background-color: #0A0F15;
+    width: 40px;
+    height: 40px;
+    padding-left: 4px;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.icon2:hover{
+    background-color: lightgrey;
+    width: 40px;
+    height: 40px;
+    padding-left: 4px;
+    padding-top: 2px;
+    transition: 0.25s;
+    color: #0A0F15;
+    cursor: pointer;
+}
+
+.icon3{
+    background-color: #0A0F15;
+    width: 40px;
+    height: 40px;
+    padding-left: 4px;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.icon3:hover{
+    background-color: lightgrey;
+    width: 40px;
+    height: 40px;
+    padding-left: 4px;
+    padding-top: 2px;
+    transition: 0.25s;
+    color: #0A0F15;
+    cursor: pointer;
+}
