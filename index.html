@@ -3,211 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sertikom</title>
-
-    <!-- css -->
-    <link rel="stylesheet" href="sertikom.css">
-
-    <!-- font -->
+    <title>Foodiesss - Your Favourite Food Delivered</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- flat icon -->
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
-
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .logo-font {
+            font-family: 'Italianno', cursive;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-50">
 
-    <div class="container">
-        <div class="isi">
-            <div class="navbar">
-                <div class="logo">
-                    foodiesss.
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="logo-font text-4xl font-bold text-orange-500">
+                    foodie.
                 </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#work">work</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                <ul class="hidden md:flex space-x-8 text-gray-700 font-medium">
+                    <li><a href="#" class="hover:text-orange-500 transition">Home</a></li>
+                    <li><a href="#about" class="hover:text-orange-500 transition">About</a></li>
+                    <li><a href="#work" class="hover:text-orange-500 transition">Work</a></li>
+                    <li><a href="#menu" class="hover:text-orange-500 transition">Menu</a></li>
+                    <li><a href="#contact" class="hover:text-orange-500 transition">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-orange-50 to-yellow-50 py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-1 text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        Your Favourite Food <br class="hidden md:block"> 
+                        Delivered Hot & Fresh
+                    </h1>
+                    <p class="text-gray-600 text-lg mb-8 max-w-xl">
+                        Healthy switcher chefs do all the prep work, like peeling, chopping & marinating, so you can cook a fresh food
+                    </p>
+                    <a href="#menu" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        Order Now
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <img src="foto/gambar1.png" alt="Delicious Food" class="w-full max-w-lg mx-auto drop-shadow-2xl">
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="hero">
-                <div class="judul">
-                    <h1>Your Favourite Food <br> 
-                        Delivered Hot & Fresh</h1>
-                    <p>Healty switcher chefs do all the prep work, like peeding chopping
-                        <br>& morinating, so you can cook a fresh food</p>
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-1">
+                    <img src="foto/gambar2.png" alt="Fresh Salad" class="w-full max-w-lg mx-auto rounded-3xl shadow-xl">
+                </div>
+                <div class="flex-1">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        Food Is An Important Part Of A Balanced Diet
+                    </h2>
+                    <p class="text-gray-600 text-lg leading-relaxed">
+                        They actually assured me over and over that take little time off and come back and work. Fast forward two weeks after, we are going for a new project. I wrote to let them know ready to come back they kicked me of their team slack all of us are make company email.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        <div class="button">
-                            <div class="satu"><a href="#menu">order now</a></div>
+    <!-- How It Works Section -->
+    <section id="work" class="py-16 md:py-24 bg-gradient-to-br from-orange-50 to-yellow-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How It Works</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                    It's through mistakes that you actually can grow. You get rid of everything that is not essential to make it happen.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-3xl">🍽️</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pick Meals</h3>
+                    <p class="text-gray-600">
+                        Consume meals from our diverse weekly menu. Find gluten or dairy free, low carb & veggie options.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-3xl">📅</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Choose How Often</h3>
+                    <p class="text-gray-600">
+                        Our team of chefs do the prep work. No more chopping, measuring, or sink full of dishes.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-3xl">🚚</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Fast Delivery</h3>
+                    <p class="text-gray-600">
+                        Your freshly prepped 15 min dinner kits arrive on your doorstep in a refrigerated box.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Explore Our Best Menu</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                    It's through mistakes that you actually can grow. You get rid of everything that is not essential to make it happen.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="foto/gambar3.png" alt="Rose Muffin" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-gray-900">Rose Muffin</h3>
+                            <span class="text-orange-500 font-bold text-xl">$12</span>
                         </div>
-                </div>
-
-                <div class="pic">
-                    <img src="foto/gambar1.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container2" id="about">
-        <div class="isi2">
-            <div class="pic2">
-                <img src="foto/gambar2.png" alt="">
-            </div>
-
-            <div class="description">
-                <div class="judul2">
-                <h1 >Food Is An Important Part Of A Balanced Diet</h1>
-                </div>
-
-                <div class="desc">
-                    <p>The actually assured me over and over that take little time <br>off and come back and work.
-                        Fast forward taw weeks after. <br>we are going for a new project <br>
-                        I wrote to let them know ready to come back they kicked<br>
-                        me of their team slack all of us are make company email</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container3" id="work">
-        <div class="isi3">
-            <div class="how">
-                <h1>How It Work</h1>
-                <p>It's through mistakes that you actually can grow you get rid of everything that is not essential to makihave to get bad</p>
-            </div>
-
-            <div class="box">
-                <div class="box2">
-                    <div class="konten">
-                        <h2>Pick Meals</h2>
-                        <p>consume meals from our diverse weekly menu. Find gluten or dairy free, low carb & veggie options</p>
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐</div>
+                        <p class="text-gray-600 text-sm">
+                            Served with French Fries + Drink. Choice of: Coke, Fanta, Sprite. Upgrade to large fries available.
+                        </p>
                     </div>
                 </div>
 
-                <div class="box2">
-                    <div class="konten">
-                        <h2>Choose How Oftens</h2>
-                        <p>Our team of chefs do the prep work no more chopping, meansure, or sink full of dishes</p>
+                <!-- Menu Item 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="foto/gambar4.png" alt="Salads Special" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-gray-900">Salads Special</h3>
+                            <span class="text-orange-500 font-bold text-xl">$10</span>
+                        </div>
+                        <div class="text-yellow-400 mb-3">⭐⭐</div>
+                        <p class="text-gray-600 text-sm">
+                            Served with French Fries + Drink. Choice of: Coke, Fanta, Sprite. Upgrade to large fries available.
+                        </p>
                     </div>
                 </div>
 
-                <div class="box2">
-                    <div class="konten">
-                        <h2>Fast Delivery</h2>
-                        <p>Your freshly prepped 15 min dinner kits arrive on your doorstep in a refrigerated box</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container4" id="menu">
-        <div class="isi4">
-            <div class="foodmenu">
-                <h1>Explore Our Best Menu</h1>
-                <p>it's through mistakes that you actually can grow you get rid of everything that is not essensial to makhihave to get bad</p>
-            </div>
-
-            <div class="grid">
-                <div class="isigrid">
-                    <div class="foodpic"><img src="foto/gambar3.png" alt=""></div>
-                    <div class="nama">
-                        <h3>Rose Muffen ⭐⭐⭐
-                            12$</h3>
-                        <p>Serve with Frenc Fries + Drink brChoice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp patty and more</p>
+                <!-- Menu Item 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="foto/gambar5.png" alt="Egg Muffin" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-gray-900">Egg Muffin</h3>
+                            <span class="text-orange-500 font-bold text-xl">$14</span>
+                        </div>
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐⭐</div>
+                        <p class="text-gray-600 text-sm">
+                            Served with French Fries + Drink. Choice of: Coke, Fanta, Sprite. Upgrade to large fries available.
+                        </p>
                     </div>
                 </div>
 
-                <div class="isigrid">
-                    <div class="foodpic"><img src="foto/gambar4.png" alt=""></div>
-                    <div class="nama">
-                        <h3>Salads Special ⭐⭐
-                            10$</h3>
-                        <p>Serve with Frenc Fries + Drink Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp patty and more</p>
+                <!-- Menu Item 4 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="foto/gambar2.png" alt="Salads" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-gray-900">Salads</h3>
+                            <span class="text-orange-500 font-bold text-xl">$15</span>
+                        </div>
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
+                        <p class="text-gray-600 text-sm">
+                            Served with French Fries + Drink. Choice of: Coke, Fanta, Sprite. Upgrade to large fries available.
+                        </p>
                     </div>
                 </div>
 
-                <div class="isigrid">
-                    <div class="foodpic2"><img src="foto/gambar5.png" alt=""></div>
-                    <div class="nama2">
-                        <h3>Egg Muffen ⭐⭐⭐⭐
-                            14$</h3>
-                        <p>Serve with Frenc Fries + Drink Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp patty and more</p>
+                <!-- Menu Item 5 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="foto/gambar6.png" alt="Egg Masala" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-gray-900">Egg Masala</h3>
+                            <span class="text-orange-500 font-bold text-xl">$13</span>
+                        </div>
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐</div>
+                        <p class="text-gray-600 text-sm">
+                            Served with French Fries + Drink. Choice of: Coke, Fanta, Sprite. Upgrade to large fries available.
+                        </p>
                     </div>
                 </div>
 
-                <div class="isigrid">
-                    <div class="foodpic3"><img src="foto/gambar2.png" alt=""></div>
-                    <div class="nama">
-                        <h3>Salads ⭐⭐⭐⭐⭐
-                            15$</h3>
-                        <p>Serve with Frenc Fries + Drink Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp patty and more</p>
-                    </div>
-                </div>
-
-                <div class="isigrid">
-                    <div class="foodpic"><img src="foto/gambar6.png" alt=""></div>
-                    <div class="nama">
-                        <h3>Egg Masala ⭐⭐⭐
-                            13$</h3>
-                        <p>Serve with Frenc Fries + Drink Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp patty and more</p>
-                    </div>
-                </div>
-
-                <div class="isigrid">
-                    <div class="foodpic6"><img src="foto/gambar7.png" alt=""></div>
-                    <div class="nama6">
-                        <h3>Vegie Muffen ⭐⭐⭐⭐
-                            11$</h3>
-                        <p>Serve with Frenc Fries + Drink Choice of : Cake, Fanta, Sprite, Upgrade to large fries, Add whopper party, add tender crisp patty and more</p>
+                <!-- Menu Item 6 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="foto/gambar7.png" alt="Vegie Muffin" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-gray-900">Vegie Muffin</h3>
+                            <span class="text-orange-500 font-bold text-xl">$11</span>
+                        </div>
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐⭐</div>
+                        <p class="text-gray-600 text-sm">
+                            Served with French Fries + Drink. Choice of: Coke, Fanta, Sprite. Upgrade to large fries available.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container5" id="contact">
-        <div class="isi5">
-            <div class="contact">
-                <div class="satu">
-                    <h1>Get Directions</h1>
-                    <p>Poras Street 07
-                        <span class="number">(0251) 8376 674</span>
-                        Call Online</p>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-gradient-to-br from-orange-500 to-yellow-500 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 mb-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Get Directions</h3>
+                    <p class="text-lg">
+                        Poras Street 07<br>
+                        <span class="font-semibold">(0251) 8376 674</span><br>
+                        Call Online
+                    </p>
                 </div>
-
-                <div class="dua">
-                    <h1>Open Hours</h1>
-                    <p>Today
-                        <br>10:00 am - 7:00 <br>pm <br>
-                        Working Hours</p>
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Open Hours</h3>
+                    <p class="text-lg">
+                        Today<br>
+                        10:00 AM - 7:00 PM<br>
+                        Working Hours
+                    </p>
                 </div>
             </div>
-
-            <button>Contact Us</button>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="isifooter">
-            <div class="icon">
-                <div class="icon1"><i class="fi fi-brands-instagram"></i></div>
-                <div class="icon2"><i class="fi fi-brands-facebook"></i></div>
-                <div class="icon3"><i class="fi fi-brands-twitter"></i></div>
+            <div class="text-center">
+                <button class="bg-white text-orange-500 font-bold px-10 py-4 rounded-full hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    Contact Us
+                </button>
             </div>
-
-            <p class="copyright">2023 @All rights reserved by Ardhika Raditya</p>
         </div>
-    </div>
-    
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col items-center space-y-4">
+                <div class="flex space-x-6">
+                    <a href="#" class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center hover:bg-orange-600 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center hover:bg-orange-600 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center hover:bg-orange-600 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                    </a>
+                </div>
+                <p class="text-gray-400 text-sm">
+                    2023 © All rights reserved by Ardhika Raditya
+                </p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
